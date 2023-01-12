@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="/css/styles.css" rel="stylesheet" type="text/css">
+  <script src="/js/scripts.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <form id="surveyform">
+    <label for="input1">Name of company:</label>
+    <input id="input1" type="text">
+    
+    <p>Rate the diversity of prior company</p>
+
+    <label>
+      <input type="radio" name="q01" value="veryBad" id="bad">
+      Very Bad
+    </label>
+    
+    <label>
+      <input type="radio" name="q01" value="neutral" id="neutral">
+      OK
+    </label>
+
+    <label>
+      <input type="radio" name="q01" value="great" id="great">
+      Great
+    </label>
+    
+    <br>
+    <br>
+    <button type="submit">Submit</button>
+  
+  </form>
+  <h2>Results</h2>
+  <p id="output"></p>
+</body>
+</html>
